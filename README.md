@@ -17,7 +17,7 @@ Add Box
 Download ZIP, extract, go to /vagrant folder and run:
 ```bash
 vagrant box add puppetlabs/centos-6.6-64-puppet
-vagrant init
+vagrant up
 vagrant reload --provision
 ```
 
