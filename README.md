@@ -14,7 +14,7 @@ Requirements
 Add Box
 -------
 
-Download .zip, extract, go to /vagrant folder and run:
+Download ZIP, extract, go to /vagrant folder and run:
 ```bash
 vagrant box add puppetlabs/centos-6.6-64-puppet
 vagrant init
@@ -150,11 +150,8 @@ sudo chkconfig rpcgssd off
 sudo chkconfig postfix off
 ```
 
-Reload VM again with --provisionfor the changes to take effect
+Reload VM again with --provision for the changes to take effect
 ```bash
 logout
-```
-
-```bash
 vagrant reload --provision
 ```
